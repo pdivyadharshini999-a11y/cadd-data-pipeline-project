@@ -1,1 +1,5 @@
-
+Molecule_Name,SMILES,Solubility_Score,Binding_Affinity
+Aspirin,CC(=O)OC1=CC=CC=C1C(=O)O,1.2,75.0
+Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0.8,67.5
+Unknown_X,Unknown,-2.5,82.0
+Aspirin,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,1.5,55.0
