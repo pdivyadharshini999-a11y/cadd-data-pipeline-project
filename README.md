@@ -27,9 +27,30 @@ Cleaned CSV file ready for next pipeline stage
 
 ---
 
+##  Project 2: SMILES Validator
+
+### Description
+
+Validates molecular SMILES strings using RDKit and removes invalid molecules from dataset.
+
+### Features
+
+* Identifies valid and invalid SMILES
+* Removes invalid molecular data
+* Prepares dataset for feature extraction
+
+### Tools Used
+
+* Python
+* Pandas
+* RDKit
+
+### Output
+
+Valid SMILES dataset ready for next pipeline stage
+
 ##  Upcoming Projects
 
-* Project 2: SMILES Validator (RDKit)
 * Project 3: Descriptor Generator
 * Project 4: ML Pipeline
 * Project 5: Data Pipeline Automation
