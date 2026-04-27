@@ -134,6 +134,4 @@ Selected Random Forest as the final model for prediction
 
 ##  Overall Pipeline Flow
 
-```text
 Raw Data → Cleaning → Validation → Feature Engineering → Machine Learning → Prediction
-```
