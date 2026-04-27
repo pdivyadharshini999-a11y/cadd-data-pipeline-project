@@ -49,9 +49,33 @@ Validates molecular SMILES strings using RDKit and removes invalid molecules fro
 
 Valid SMILES dataset ready for next pipeline stage
 
+##  Project 3: Descriptor Generator
+
+### Description
+
+Generates molecular descriptors from valid SMILES strings using RDKit.
+
+### Features
+
+* Converts SMILES into molecule objects
+* Calculates molecular weight
+* Calculates number of atoms
+* Calculates number of bonds
+* Creates ML-ready dataset
+
+### Tools Used
+
+* Python
+* Pandas
+* RDKit
+
+### Output
+
+Descriptor dataset ready for machine learning
+
+
 ##  Upcoming Projects
 
-* Project 3: Descriptor Generator
 * Project 4: ML Pipeline
 * Project 5: Data Pipeline Automation
 
