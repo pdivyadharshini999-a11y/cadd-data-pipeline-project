@@ -192,7 +192,6 @@ The pipeline processes molecular data through multiple stages:
 To run this pipeline locally, follow these steps:
 
 1. **Clone the repository:**
-   ```bash
   git clone https://github.com/pdivyadharshini999-a11y/cadd-data-pipeline-project.git
 
 2. **Install dependencies:**
