@@ -164,15 +164,15 @@ Built a fully automated end-to-end molecular data pipeline for machine learning 
 
 
 Raw Data 
-   ↓
+   ->
 Data Cleaning 
-   ↓
+   ->
 SMILES Validation 
-   ↓
+   ->
 Descriptor Generation (Feature Engineering)
-   ↓
+   ->
 Machine Learning Model 
-   ↓
+   ->
 Prediction Output
 
 
