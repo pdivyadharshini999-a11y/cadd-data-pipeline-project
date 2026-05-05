@@ -123,9 +123,36 @@ Selected Random Forest as the final model for prediction
 
 ---
 
+##  Project 5: Data Pipeline Automation
+
+### Description
+
+Automates the entire molecular data processing workflow from raw SMILES input to machine learning model evaluation.
+
+### Features
+
+* Integrates data cleaning, SMILES validation, and descriptor generation
+* Automates feature engineering and model training
+* Executes full pipeline with a single function call
+* Reduces manual effort and improves workflow efficiency
+
+### Workflow
+
+Input CSV → Data Cleaning → SMILES Validation → Descriptor Generation → Model Training & Evaluation
+
+### Tools Used
+
+* Python
+* Pandas
+* RDKit
+* Scikit-learn
+
+### Outcome
+
+Built a fully automated end-to-end molecular data pipeline for machine learning applications
+
 ##  Upcoming Projects
 
-* Project 5: Data Pipeline Automation
 * Project 6: Advanced Feature Engineering
 * Project 7: Deployment
 * Project 8: CADD AI Assistant
@@ -134,4 +161,26 @@ Selected Random Forest as the final model for prediction
 
 ##  Overall Pipeline Flow
 
-Raw Data → Cleaning → Validation → Feature Engineering → Machine Learning → Prediction
+
+
+Raw Data 
+   ↓
+Data Cleaning 
+   ↓
+SMILES Validation 
+   ↓
+Descriptor Generation (Feature Engineering)
+   ↓
+Machine Learning Model 
+   ↓
+Prediction Output
+
+
+The pipeline processes molecular data through multiple stages:
+
+* Raw SMILES data is cleaned and preprocessed
+* Invalid molecular structures are removed
+* Molecular descriptors are generated using RDKit
+* Machine learning models are trained on engineered features
+* Final predictions (pIC50) are generated
+
