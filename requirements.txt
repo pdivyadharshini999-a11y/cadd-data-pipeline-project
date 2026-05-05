@@ -1,4 +1,4 @@
-##  Install these Dependencies:
+Install these Dependencies:
 
 rdkit
 pandas
