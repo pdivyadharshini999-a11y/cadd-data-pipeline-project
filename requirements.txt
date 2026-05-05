@@ -1,5 +1,0 @@
-Install these Dependencies:
-
-rdkit
-pandas
-scikit-learn
