@@ -103,9 +103,19 @@ Builds machine learning models to predict molecular bioactivity (pIC50) using ge
 
 ### Results
 
-* Random Forest achieved the best performance
-* R² score ≈ 0.79
-* Demonstrated ability to capture nonlinear relationships
+- **Final Model Selection:** Random Forest Regressor achieved the best and most reliable performance.
+
+- **Final R² Score:** ~0.76 (Generalization Optimized).
+
+- **Overfitting Correction:** Successfully identified an initial overfitting issue where the model had a 0.97 Train score vs a 0.79 Test score.
+
+- **Hyperparameter Tuning:** Optimized the model using `max_depth=15` and `min_samples_leaf=5` to reduce variance and prevent the model from memorizing noise.
+
+- **Model Robustness:** Reduced the gap between Training (0.86) and Testing (0.76) performance to ~10%, improving real-world prediction reliability.
+
+- **Feature Importance Analysis:** Identified `Num_Bonds` as the most influential feature, contributing approximately 51.6% importance toward bioactivity prediction.
+
+- **Key Achievement:** Improved the model’s ability to generalize on unseen molecular data while maintaining strong predictive performance.
 
 ### Features Used
 
