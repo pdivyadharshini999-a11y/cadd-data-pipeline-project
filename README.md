@@ -161,40 +161,74 @@ Input CSV → Data Cleaning → SMILES Validation → Descriptor Generation → 
 
 Built a fully automated end-to-end molecular data pipeline for machine learning applications
 
+##  Project 6: Data Engineering Pipeline
+
+### Description
+
+Implements data engineering concepts for scalable molecular data processing using SQL, PySpark, and Airflow workflow orchestration concepts.
+
+### Features
+
+* Stores molecular datasets using SQLite
+* Executes SQL queries for filtering and analysis
+* Processes large-scale molecular data using PySpark
+* Performs Spark transformations and aggregations
+* Exports processed data in Parquet format
+* Simulates Airflow DAG workflow orchestration
+* Demonstrates automated pipeline architecture concepts
+
+### Technologies Used
+
+* Python
+* Pandas
+* SQLite3
+* PySpark
+* Apache Airflow
+* Scikit-learn
+
+### Workflow
+
+Raw Molecular Data → SQL Storage → PySpark Processing → Feature Engineering → Machine Learning → Airflow Workflow Scheduling
+
+### Outcome
+
+Built a beginner-friendly data engineering pipeline integrating SQL, PySpark, and Airflow concepts for scalable molecular machine learning workflows.
+
+---
+
 ##  Upcoming Projects
 
-* Project 6: Advanced Feature Engineering
-* Project 7: Deployment
+* Project 7: Cloud & Deployment
 * Project 8: CADD AI Assistant
 
 ---
 
 ##  Overall Pipeline Flow
 
-
-
-Raw Data 
+Raw Data
    ->
-Data Cleaning 
+Data Cleaning
    ->
-SMILES Validation 
+SMILES Validation
    ->
-Descriptor Generation (Feature Engineering)
+Descriptor Generation
    ->
-Machine Learning Model 
+SQL Storage
+   ->
+PySpark Processing
+   ->
+Machine Learning Model
+   ->
+Airflow Workflow Automation
    ->
 Prediction Output
-
 
 The pipeline processes molecular data through multiple stages:
 
 * Raw SMILES data is cleaned and preprocessed
 * Invalid molecular structures are removed
 * Molecular descriptors are generated using RDKit
-* Machine learning models are trained on engineered features
-* Final predictions (pIC50) are generated
-
-
-
-
-
+* Molecular data is stored and queried using SQL
+* PySpark processes scalable molecular datasets
+* Airflow concepts are used for workflow orchestration
+* Machine learning models generate final molecular predictions
