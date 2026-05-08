@@ -3,3 +3,5 @@ Install these Dependencies:
 rdkit
 pandas
 scikit-learn
+apache-pyspark
+apache-airflow
