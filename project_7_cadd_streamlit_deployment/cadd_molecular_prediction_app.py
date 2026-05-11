@@ -7,12 +7,16 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score
+from pathlib import Path
+
 
 st.title("Cadd_Data_Pipeline")
 st.write("Predict molecular bioactivity using machine learning.")
 st.info("Enter valid molecular SMILES for prediction")
 
-model = joblib.load("random_forest_regressor.joblib")
+MODEL_PATH = Path(__file__).parent / "random_forest_regressor.joblib"
+
+model = joblib.load(MODEL_PATH)
 
 smiles = st.text_input("Enter smiles :")
 predict_button = st.button("Predict")
