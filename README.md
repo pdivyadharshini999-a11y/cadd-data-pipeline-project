@@ -196,10 +196,30 @@ Built a beginner-friendly data engineering pipeline integrating SQL, PySpark, an
 
 ---
 
-##  Upcoming Projects
+## Project 7: Cloud Deployment & Interactive Web App (LIVE)
+### Description
+Took the entire CADD pipeline to the cloud, transforming the machine learning model into a user-friendly, interactive web application for researchers.
 
-* Project 7: Cloud & Deployment
-* Project 8: CADD AI Assistant
+### Live Application
+**Try it here:** [CADD Molecular Property Predictor](https://cadd-data-pipeline-project-94czis6rlgjgeoaetjbnwk.streamlit.app/)
+
+### Features
+- **Instant SMILES Prediction:** Enter any molecular string (like Aspirin or Caffeine) to get pIC50 bioactivity results.
+- **Automated Feature Engineering:** Real-time calculation of LogP, TPSA, and Molecular Weight using RDKit.
+- **Model Deployment:** Successfully hosted a Scikit-Learn Random Forest model via Streamlit Cloud.
+- **User-Centric Design:** Professional dark-mode UI designed for computational chemists.
+
+### Tools Used
+- **Python / Streamlit**
+- **Scikit-Learn**
+- **RDKit**
+- **GitHub Actions**
+
+---
+
+## 🛠 Project 8: Upcoming - CADD AI Assistant (RAG System)
+### Goal
+Building a Retrieval-Augmented Generation (RAG) system using LLMs to allow researchers to "chat" with their molecular datasets and research papers.
 
 ---
 
