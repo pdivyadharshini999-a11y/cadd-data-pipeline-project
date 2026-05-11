@@ -1,7 +1,7 @@
 import streamlit as st
 from rdkit import Chem
 from rdkit.Chem import Descriptors
-import pickle
+import joblib
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
@@ -12,8 +12,7 @@ st.title("Cadd_Data_Pipeline")
 st.write("Predict molecular bioactivity using machine learning.")
 st.info("Enter valid molecular SMILES for prediction")
 
-with open("random_forest_regressor.pkl","rb") as file:
-  model = pickle.load(file)
+model = joblib.load("random_forest_regressor.joblib")
 
 smiles = st.text_input("Enter smiles :")
 predict_button = st.button("Predict")
